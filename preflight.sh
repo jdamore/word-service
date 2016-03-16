@@ -3,5 +3,5 @@ rvm gemset create word-service
 rvm gemset use word-service
 gem install bundle
 bundle install
-bundle exec rspec --format documentation --color
+bundle exec rake spec
 bundle exec rake pact

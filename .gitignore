@@ -1,0 +1,6 @@
+Gemfile.lock
+.ruby*
+log
+reports
+client
+flickit
